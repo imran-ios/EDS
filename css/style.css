@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+.header ul {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+
+.hero-section {
+    height: 300px;
+    max-width: 100vw;
+    background-color: powderblue;
+    object-fit: fill;
+}
